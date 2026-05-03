@@ -1,4 +1,4 @@
-/* CSS Variables for easy maintenance */
+
 :root {
     --bg-color: #f8fafc;
     --text-main: #0f172a;
@@ -13,7 +13,7 @@
     --transition: all 0.2s ease-in-out;
 }
 
-/* Base Styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -31,7 +31,7 @@ body {
     line-height: 1.6;
 }
 
-/* Layout */
+
 .container {
     max-width: 1000px;
     margin: 0 auto;
@@ -49,7 +49,7 @@ body {
     color: var(--text-main);
 }
 
-/* Navigation */
+
 .navbar {
     position: sticky;
     top: 0;
@@ -92,7 +92,7 @@ nav a:hover {
     color: var(--accent);
 }
 
-/* Hero Section */
+
 .hero {
     text-align: center;
     padding: 6rem 0;
@@ -145,7 +145,7 @@ nav a:hover {
     margin-bottom: 2rem;
 }
 
-/* Buttons */
+
 .action-buttons {
     display: flex;
     gap: 1rem;
@@ -181,7 +181,7 @@ nav a:hover {
     background-color: var(--bg-color);
 }
 
-/* Cards */
+
 .card {
     background-color: var(--card-bg);
     border: 1px solid var(--border-color);
@@ -195,7 +195,7 @@ nav a:hover {
     box-shadow: var(--shadow-hover);
 }
 
-/* About Section */
+
 .about-card p {
     margin-bottom: 1rem;
     color: var(--text-muted);
@@ -204,7 +204,7 @@ nav a:hover {
     margin-bottom: 0;
 }
 
-/* Skills Section */
+
 .skills-container {
     display: flex;
     flex-wrap: wrap;
@@ -221,14 +221,14 @@ nav a:hover {
     border: 1px solid var(--border-color);
 }
 
-/* Grid Layout for Projects & Documents */
+
 .grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 1.5rem;
 }
 
-/* Project Cards */
+
 .project-card {
     display: flex;
     flex-direction: column;
@@ -276,7 +276,7 @@ nav a:hover {
     text-decoration: underline;
 }
 
-/* Document Cards */
+
 .doc-card {
     display: flex;
     align-items: center;
@@ -308,7 +308,7 @@ nav a:hover {
     font-size: 0.85rem;
 }
 
-/* Contact Section */
+
 .contact-links {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -341,7 +341,7 @@ nav a:hover {
     word-break: break-all;
 }
 
-/* Footer */
+
 .footer {
     text-align: center;
     padding: 3rem 0;
@@ -349,7 +349,7 @@ nav a:hover {
     font-size: 0.85rem;
 }
 
-/* Responsive */
+
 @media (max-width: 768px) {
     .profile-img {
         width: 250px;
@@ -374,3 +374,4 @@ nav a:hover {
         justify-content: center;
     }
 }
+
