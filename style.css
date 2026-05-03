@@ -106,8 +106,8 @@ nav a:hover {
 }
 
 .profile-img {
-    width: 150px;
-    height: 150px;
+    width: 450px;
+    height: 450px;
     border-radius: 50%;
     object-fit: cover;
     background-color: #e5e7eb;
@@ -351,6 +351,11 @@ nav a:hover {
 
 /* Responsive */
 @media (max-width: 768px) {
+    .profile-img {
+        width: 250px;
+        height: 250px;
+    }
+
     .nav-content {
         flex-direction: column;
         gap: 1rem;
